@@ -1,0 +1,161 @@
+{/* <div className="w-full py-20 h-auto border-b-[1px] border-b-black grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-4 gap-8">
+       <div className="w-full h-full flex flex-col gap-8">
+       <div className="flex gap-4">
+         <span className="bannerIcon">
+           <FaFacebookF />
+         </span>
+         <span className="bannerIcon">
+           <FaTwitter />
+         </span>
+         <span className="bannerIcon">
+           <FaLinkedinIn />
+         </span>
+       </div>
+     </div>
+     <div className="w-full h-full">
+       <h3 className="text-xl uppercase text-designColor tracking-wider">
+         Quick Link
+       </h3>
+       <ul className="flex flex-col gap-4 font-titleFont font-medium py-6 overflow-hidden">
+         <li>
+           <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
+             About
+             <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
+           </span>
+         </li>
+         <li>
+           <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
+             Portfolio
+             <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
+           </span>
+         </li>
+         <li>
+           <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
+             Services
+             <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
+           </span>
+         </li>
+         <li>
+           <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
+             Blog
+             <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
+           </span>
+         </li>
+         <li>
+           <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
+             Contact
+             <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
+           </span>
+         </li>
+       </ul>
+     </div> 
+      <div className="w-full h-full">
+        <h3 className="text-xl uppercase text-designColor tracking-wider">
+          RESOURCES
+        </h3>
+        <ul className="flex flex-col gap-4 font-titleFont font-medium py-6 overflow-hidden">
+          <li>
+            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
+              Authentication
+              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
+            </span>
+          </li>
+          <li>
+            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
+              System Status
+              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
+            </span>
+          </li>
+          <li>
+            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
+              Terms of Service
+              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
+            </span>
+          </li>
+          <li>
+            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
+              Pricing
+              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
+            </span>
+          </li>
+          <li>
+            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
+              Over Right
+              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
+            </span>
+          </li>
+        </ul>
+      </div>
+      <div className="w-full h-full">
+        <h3 className="text-xl uppercase text-designColor tracking-wider">
+          DEVELOPERS
+        </h3>
+        <ul className="flex flex-col gap-4 font-titleFont font-medium overflow-hidden py-6">
+          <li>
+            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
+              Documentation
+              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
+            </span>
+          </li>
+          <li>
+            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
+              Authentication
+              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
+            </span>
+          </li>
+          <li>
+            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
+              API Reference
+              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
+            </span>
+          </li>
+          <li>
+            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
+              Support
+              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
+            </span>
+          </li>
+          <li>
+            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
+              Open Source
+              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
+            </span>
+          </li>
+        </ul>
+      </div> 
+   </div>
+
+    <div>
+        <div className='py-8 max-w-screen-lg p-4 mx-auto w-full h-full'>
+            <div className='mt-10'>
+              <p className='text-xl text-center font-bold text-white'>SIVANESH KUMAR P</p> 
+            </div>
+
+
+            <div className='py-8'>
+            <ul className='flex justify-center items-center gap-10 max-sm:gap-4'>
+            {foot1.map(({id,link})=>(
+                 <li key={id} className='flex justify-center items-center hover:scale-105 capitalize duration-200 cursor-pointer '><Link to={link} smooth duration={500}>{link}</Link></li>
+            ))}
+               
+            </ul>
+            </div>
+
+
+            <div>
+            <ul className='flex justify-center items-center gap-10'>
+                {foot2.map(({id,child,href,download})=>(
+                    <li key={id}>
+                        <a href={href} download={download} target='_blank' rel="noreferrer" className='flex justify-between items-center w-full'> 
+                           {child}
+                            </a> 
+                            </li>
+                ))}
+                
+            </ul>
+            </div>
+<div className='text-center pt-8'><p>© 2023 Sivanesh Kumar. All rights reserved.</p></div>
+
+        </div>
+    </div> 
+    
