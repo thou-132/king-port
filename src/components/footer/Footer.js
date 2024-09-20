@@ -104,7 +104,7 @@ const Footer = () => {
 
 
             <div className='py-12'>
-            <ul className='flex justify-center items-center gap-10 sm:gap-5'>
+            <ul className='flex justify-center items-center gap-2 sm:gap-5'>
             {foot1.map(({id,link})=>(
                  <li key={id} className='flex justify-center items-center hover:scale-105 capitalize duration-200 cursor-pointer '><Link to={link} smooth duration={500}>{link}</Link></li>
             ))}
